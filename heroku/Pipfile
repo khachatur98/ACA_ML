@@ -1,0 +1,20 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+
+[packages]
+
+flask = "*"
+django = "*"
+gunicorn = "*"
+django-heroku = "*"
+tensorflow = "*"
+numpy = "*"
+sklearn = "*"
+xgboost = "*"
+
+[requires]
+
+python_version = "3.6.4"
